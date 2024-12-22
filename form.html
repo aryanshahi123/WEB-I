@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission Form</title>
+  </head>
+  <body>
+    <h1>Admission Form</h1>
+    <form action="" method="post">
+      <table border="1">
+        <tr>
+          <th>Headings</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" name="name" id="name" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" name="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <input type="radio" name="gender" id="male" /><label for="male"
+              >Male</label
+            >
+            <input type="radio" name="gender" id="female" /><label for="female"
+              >Female</label
+            >
+          </td>
+        </tr>
+        <tr>
+            <td><label for="dob">Date Of Birth(A.D):</label></td>
+            <td><input type="date" name="date" id="date" /></td>
+          </tr>
+          <tr>
+            <td><label for="age">Age:</label></td>
+            <td><input type="number" name="age" id="age"></td>
+          </tr>
+        <tr>
+          <td><label for="address">Permanent Address:</label></td>
+          <td><input type="text" name="address" id="address" /></td>
+        </tr>
+        <tr>
+          <td><label for="facilities">Facilities:</label></td>
+          <td>
+            <input type="checkbox" name="sports" id="sports" /><label
+              for="sports"
+              >Sports</label
+            >
+            <br />
+            <input type="checkbox" name="food" id="food" /><label for="foor"
+              >Food</label
+            >
+            <br />
+            <input
+              type="checkbox"
+              name="accomodation"
+              id="accomodation"
+            /><label for="accomodation">Accomodation</label>
+            <br />
+            <input
+              type="checkbox"
+              name="transportation"
+              id="transportation"
+            /><label for="transportation">Transportation</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="color">Preferred Color:</label></td>
+          <td><input type="color" name="color" id="color" /></td>
+        </tr>
+      </table>
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
